@@ -9,7 +9,7 @@ face_xml = cv2.CascadeClassifier('C:/Users/7invensun/Downloads/opencv/sources/da
 # eye_xml = cv2.CascadeClassifier('C://Users//7invensun//Downloads//opencv//sources//data//haarcascades//haarcascade_eye.xml')
 # 加载文件
 # 文件来源：https://juejin.im/post/5afd25b66fb9a07aa34a775f
-list = 'C:/Users/7invensun/PycharmProjects/PictureTailoring/bg.txt'
+list = 'C:/Users/7invensun/PycharmProjects/PictureTailoring/list_1.txt'
 fp = open(list,'r')
 lines = fp.readlines()
 fp.close()
